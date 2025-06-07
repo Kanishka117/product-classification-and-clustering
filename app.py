@@ -273,7 +273,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("C:\\Users\\ASUS\\OneDrive\\Desktop\\product classification and clusturing\\pricerunner_aggregate.csv")
+        df = pd.read_csv("pricerunner_aggregate.csv")
         df = df.dropna()
         
         label_encoders = {}
